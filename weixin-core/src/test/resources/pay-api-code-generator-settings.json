@@ -1,0 +1,30 @@
+{
+  "payDocumentUrl": {
+    "jsapi": "https://pay.weixin.qq.com/wiki/doc/api/jsapi.php?chapter=7_1",
+    "native": "https://pay.weixin.qq.com/wiki/doc/api/native.php?chapter=6_1",
+    "app": "https://pay.weixin.qq.com/wiki/doc/api/app/app.php?chapter=8_1",
+    "h5": "https://pay.weixin.qq.com/wiki/doc/api/H5.php?chapter=15_1",
+    "wxa": "https://pay.weixin.qq.com/wiki/doc/api/wxa/wxa_api.php?chapter=7_3&index=1"
+  },
+  "payCommonApi": {
+    "统一下单": "UnifiedOrder",
+    "查询订单": "OrderQuery",
+    "关闭订单": "CloseOrder",
+    "申请退款": "Refund",
+    "查询退款": "RefundQuery",
+    "下载对账单": "DownloadBill",
+    "支付结果通知": "PayResultNotify",
+    "交易保障": "Report",
+    "退款结果通知": "RefundResultNotify",
+    "拉取订单评价数据": "BatchQueryComment"
+  },
+  "outputDirectory":"../weixin-pay/src/main/java",
+  "basePackage":"com.github.freegeese.weixin.pay",
+  "subPackage":"dto",
+  "inputParameterPrefix": "",
+  "inputParameterSuffix": "Request",
+  "outputParameterPrefix": "",
+  "outputParameterSuffix": "Response",
+  "errorCodePrefix": "",
+  "errorCodeSuffix": "ErrorCode"
+}
